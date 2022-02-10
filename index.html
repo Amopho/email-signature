@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail signature</title>
+</head>
+<body> 
+        <!-- Begin CSS Email Signature -->
+        <!-- There is no proper way to do a google font import from inline CSS, so we do it here -->
+        <style>@import url('https://fonts.googleapis.com/css?family=Oxygen');</style>
+        <table style="width:400px; height: 213px; padding-top:33px; padding-right:0; padding-bottom:38px; padding-left:10px; font-family: 'Oxygen', sans-serif; font-size: 12px">
+          <tbody>
+            <tr>
+              <td style="width:110px; padding:0;">
+                <img src="https://mleewise.com/assets/img/JN-PT.png" alt="John Smithington Headshot" style="width:92px; padding-right: 20px; opacity: 0.8">
+                <br>
+                <br>
+                <a href="#"><img src="./assets/facebook32px.png" width=16px alt="Primary Theory Facebook Link" style="padding-left:14px;"></a>
+                <a href="#"><img src="https://mleewise.com/assets/img/linkedin32px.png" width=16px alt="Primary Theory LinkedIn Link"></a>
+                <a href="#"><img src="https://mleewise.com/assets/img/twitter32px.png" width=16px alt="Primary Theory Twitter Link"></a>
+              </td>
+              <td style="border-left: 2px solid #f1451e; width:22px; height:136px; padding: 0px; opacity:0.8"></td>
+              <td style="padding:0px">
+                <b>John Smithington</b>
+                <br>
+                <a href="tel:555-555-5555" style="text-decoration:none; color:black;"><img src="https://www.mleewise.com/assets/img/telephone32px.png"  height=10px alt="Orange Phone Icon"> 555.555.1234</a>
+                <br>
+                <a href="primarytheory.com" style="text-decoration:none; color:black;"><img src="https://www.mleewise.com/assets/img/linkthickflip32px.png"  height=10px alt="Orange Link Icon"> primarytheory.com</a>
+                <br>
+                <br style="line-height:30px">
+                <a href="primarytheory.com"><img src="https://mleewise.com/assets/img/PT_Logo_Small.png" alt="The logo for 'Primary Theory'" style="width:158px;"></a>
+                <br>
+                a creative agency
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- End CSS Email Signature -->
+        
+        <div id="some-notes" style="font-family:Roboto">
+        <hr>
+        <h3>Some Notes</h3>
+        <p>
+          <ul>
+            <li>
+              Inline css or Style tags are used in emails. You're allowed to link to external resources, but email clients/spam filters hate that, so separate css files are not used. This preserves the static nature of emails-- an email can't change from one day to the next.
+            </li>
+            <li>
+              An email sig is thought of as a small, static element. So an html table is used. In this case, I used a row with 3 columns. 
+            </li>
+            <li>
+              The center row is optional, since the orange border could have been applied to the last column with some extra padding-left to achieve the same affect. But I enjoy the extra degree of freedom at minimal cost.
+            </li>
+            <li>
+              The graphics tend to be bigger than the display size. This creates better appearance on uhd monitors. 
+            </li>
+            <li>Links were added. The standard text-decoration doesn't match the design style, so I opted for icons to indicate clickability. On that note, the phone number is clickable as a convenience for call-able devices.</li>
+          </ul>  
+        </p>
+        </div>
+</body>
+</html>
